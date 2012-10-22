@@ -2,6 +2,7 @@
 
 if [[ $EUID -ne 0 ]]; then
 	echo "You must be root!" 2>&1
+	echo "Use sudo when running the script!"
 	exit 1;
 else
 	echo "Now installing web services..."
