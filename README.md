@@ -20,7 +20,7 @@ sudo ./install-ubuntu-12.10.sh</code>
 
 <code>nano /etc/apache2/mods-available/suphp.conf</code>
 
-comment out the <FilesMatch "\.ph(p3?|tml)$"> section and add the line AddType application/x-httpd-suphp .php .php3 .php4 .php5 .phtml
+comment out the "<FilesMatch "\.ph(p3?|tml)$">" section and add the line AddType application/x-httpd-suphp .php .php3 .php4 .php5 .phtml
 
 <pre>
 <code>	<IfModule mod_suphp.c>
